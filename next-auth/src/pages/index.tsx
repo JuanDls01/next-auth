@@ -1,11 +1,12 @@
 import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
+import Layout from '../hocs/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div className="text-blue-500">
-      app
-    </div>
+    <Layout>
+      Home
+    </Layout>
   )
 }
 
