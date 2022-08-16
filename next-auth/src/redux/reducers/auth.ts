@@ -12,8 +12,8 @@ type initialState = {
 }
 
 const initialState: initialState = {
-    access: localStorage.getItem('access'),
-    refresh: localStorage.getItem('refresh'),
+    access: null,
+    refresh: null,
     isAuthenticated: null,
     user: null,
     loading: false
